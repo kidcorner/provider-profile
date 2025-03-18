@@ -10,8 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "vercel-build": "npm install next@14.0.4 && next build"
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
