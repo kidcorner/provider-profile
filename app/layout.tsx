@@ -2,8 +2,8 @@ import React from 'react';
 import './globals.css';
 
 export const metadata = {
-  title: 'Provider Profile',
-  description: 'Find and book services with qualified providers',
+  title: 'Providers',
+  description: 'Find and connect with qualified service providers',
 };
 
 export default function RootLayout({

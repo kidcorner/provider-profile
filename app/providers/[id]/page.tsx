@@ -3,30 +3,28 @@
 import React from 'react';
 import { providerData } from './mockData';
 import Header from './components/Header';
-import ServiceDetails from './components/ServiceDetails';
-import TimeSlots from './components/TimeSlots';
-import Reviews from './components/Reviews';
-import Location from './components/Location';
+import Gallery from './components/Gallery';
+import ServiceList from './components/ServiceList';
+import BookingForm from './components/BookingForm';
 
 export default function ProviderProfile() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
-      <main className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Column */}
-          <div className="lg:col-span-2 space-y-8">
-            <ServiceDetails />
-            <TimeSlots />
-            <Reviews />
+          {/* Main content */}
+          <div className="lg:col-span-2">
+            <Header />
+            <Gallery />
+            <ServiceList />
           </div>
           
-          {/* Right Column */}
+          {/* Sidebar */}
           <div className="lg:col-span-1">
-            <Location />
+            <BookingForm />
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 } 

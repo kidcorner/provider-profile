@@ -1,5 +1,5 @@
 {
-  "name": "provider-profile",
+  "name": "providers",
   "version": "1.0.0",
   "private": true,
   "engines": {

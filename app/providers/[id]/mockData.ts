@@ -1,109 +1,61 @@
 export const providerData = {
-  title: "College Media Education Consultant Lessons",
-  description: "Experienced college media education consultant offering personalized lessons to help students excel in their media studies.",
+  name: "Happy Kids",
   rating: 4.8,
-  totalReviews: 127,
-  price: "$50",
-  duration: "60 min",
-  location: {
-    address: "1234 Oak Street",
-    city: "San Francisco",
-    state: "CA",
-    zip: "94110",
-    businessHours: [
-      { day: "Mon", hours: "9:00 AM - 5:00 PM" },
-      { day: "Tue", hours: "9:00 AM - 5:00 PM" },
-      { day: "Wed", hours: "9:00 AM - 5:00 PM" },
-      { day: "Thu", hours: "9:00 AM - 5:00 PM" },
-      { day: "Fri", hours: "9:00 AM - 5:00 PM" },
-      { day: "Sat", hours: "Closed" },
-      { day: "Sun", hours: "Closed" }
-    ]
-  },
-  timeSlots: [
-    {
-      date: "Mon, Mar 18",
-      slots: [
-        { time: "11:00 AM", available: true },
-        { time: "12:00 PM", available: true },
-        { time: "1:00 PM", available: false },
-        { time: "2:00 PM", available: true },
-        { time: "3:00 PM", available: true }
-      ]
-    },
-    {
-      date: "Tue, Mar 19",
-      slots: [
-        { time: "10:00 AM", available: true },
-        { time: "11:00 AM", available: false },
-        { time: "1:00 PM", available: true },
-        { time: "2:00 PM", available: true },
-        { time: "4:00 PM", available: true }
-      ]
-    }
+  totalReviews: 124,
+  location: "San Diego",
+  images: [
+    "https://images.unsplash.com/photo-1602619075660-b3d389c7b6cb",
+    "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
+    "https://images.unsplash.com/photo-1503676382389-4809596d5290",
+    "https://images.unsplash.com/photo-1555009393-f20bdb245c4d"
   ],
-  ratingDistribution: {
-    5: 85,
-    4: 25,
-    3: 10,
-    2: 5,
-    1: 2
-  },
-  reviews: [
+  gallery: [
     {
       id: 1,
-      author: "Emily R.",
-      rating: 5,
-      date: "March 15, 2024",
-      comment: "The consultant was extremely knowledgeable and helped me understand complex media concepts. Great experience!"
+      url: "https://images.unsplash.com/photo-1602619075660-b3d389c7b6cb",
+      caption: "Group activities in the park"
     },
     {
       id: 2,
-      author: "James M.",
-      rating: 4,
-      date: "March 10, 2024",
-      comment: "Very informative sessions. The practical exercises were particularly helpful."
+      url: "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
+      caption: "Art and creativity session"
     },
     {
       id: 3,
-      author: "Sarah L.",
-      rating: 5,
-      date: "March 8, 2024",
-      comment: "Excellent teaching style and very patient. Would highly recommend!"
+      url: "https://images.unsplash.com/photo-1503676382389-4809596d5290",
+      caption: "Math learning with fun"
     },
     {
       id: 4,
-      author: "Michael P.",
-      rating: 5,
-      date: "March 5, 2024",
-      comment: "Really helped me improve my understanding of media production."
+      url: "https://images.unsplash.com/photo-1555009393-f20bdb245c4d",
+      caption: "Story time and reading"
     }
   ],
-  images: [
+  services: [
     {
       id: 1,
-      url: "/provider1.jpg",
-      alt: "Teaching session"
+      title: "Full-Day Summer Art and Music Camp",
+      description: "Join us for a fun-filled day of art, music, and creative activities! Your child will explore various art mediums, learn about different musical instruments, and participate in group performances.",
+      price: 65,
+      duration: "Full Day",
+      ageRange: "5-12 years",
+      schedule: "Mon - Fri",
+      timeSlots: ["9:00 AM - 4:00 PM"]
     },
     {
       id: 2,
-      url: "/provider2.jpg",
-      alt: "Workshop"
-    },
-    {
-      id: 3,
-      url: "/provider3.jpg",
-      alt: "Equipment demonstration"
+      title: "Half-Day Sports and Games Camp",
+      description: "An energetic camp focused on team sports, outdoor games, and physical activities. Perfect for active kids who love to move and play!",
+      price: 40,
+      duration: "Half Day",
+      ageRange: "6-14 years",
+      schedule: "Mon - Fri",
+      timeSlots: ["9:00 AM - 12:00 PM", "1:00 PM - 4:00 PM"]
     }
   ],
-  availability: [
-    {
-      date: "2024-03-20",
-      slots: ["9:00 AM", "11:00 AM", "2:00 PM", "4:00 PM"]
-    },
-    {
-      date: "2024-03-21",
-      slots: ["10:00 AM", "1:00 PM", "3:00 PM"]
-    }
-  ]
+  about: {
+    description: "We are a dedicated team passionate about providing quality education and fun activities for children. Our experienced staff creates a safe and nurturing environment where kids can learn, play, and grow.",
+    experience: "15+ years",
+    specialties: ["Art & Crafts", "Music", "Sports", "STEM Activities"]
+  }
 }; 
